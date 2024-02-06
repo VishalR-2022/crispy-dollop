@@ -87,7 +87,7 @@ const Product = () => {
         </FlexBox>
       </Card>
       <Grid container spacing={3}>
-        <Grid item md={9} xs={12}>
+        <Grid item md={12} xs={12}>
           {view === 'grid' ? (
             <ProductsGridView
               products={products}

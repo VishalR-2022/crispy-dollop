@@ -14,9 +14,9 @@ const ProductsGridView = ({
   updateCurrentPage,
 }) => (
   <>
-    <Grid container spacing={3}>
+    <Grid container spacing={3} justifyContent="center">
       {products.map(item => (
-        <Grid item lg={4} sm={6} xs={12} key={item.id}>
+        <Grid item lg={3} md={4} sm={6} xs={12} key={item.id}>
           <ProductGridCard
             title={item.title}
             description={item.description}

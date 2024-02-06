@@ -19,7 +19,7 @@ const ProductsListView = ({
         slug={item.slug}
         title={item.title}
         price={item.price}
-        off={item.discount}
+        discountPercentage={item.discountPercentage}
         rating={item.rating}
         imgUrl={item.thumbnail}
       />
